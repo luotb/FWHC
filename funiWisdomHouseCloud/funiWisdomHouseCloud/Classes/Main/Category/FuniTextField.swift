@@ -30,6 +30,12 @@ class FuniTextField: UITextField {
     @IBInspectable var index:Int = 0
     @IBInspectable var isPopupWin:Bool = false
     var dataSource:Array<FuniConfigInfo>?
+    //当前选中的
+    var currentDidSelInfo:FuniConfigInfo = FuniConfigInfo() {
+        willSet {
+            self.text = newValue.title
+        }
+    }
    
     override func awakeFromNib()
     {

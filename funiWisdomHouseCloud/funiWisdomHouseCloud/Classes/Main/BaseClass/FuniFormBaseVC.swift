@@ -12,6 +12,7 @@ class FuniFormBaseVC: BaseViewController {
     
     var messageView:FuniMessageView!
     var currentTextField:FuniTextField!
+    var dropListView:FuniDropListView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -144,10 +145,40 @@ extension FuniFormBaseVC {
         
     }
     
+    func loadPopupView() {
+        self.dropListView = Helper.getViewControllerFromStoryboard("Common", storyboardID: "FuniDropListView") as! FuniDropListView
+        self.dropListView.lastSelValue = self.currentTextField.text
+        self.dropListView.dropListDataSource = self.currentTextField.dataSource
+        self.dropListView.view.alpha = 0
+        self.view.addSubview(self.dropListView.view)
+        
+        self.dropListView.didSelDropListClosure = {(configInfo: FuniConfigInfo)
+            -> Void in
+            self.currentTextField.currentDidSelInfo = configInfo
+            self.removeDropListView()
+        }
+    }
+    
     /**
      显示选择框弹窗
      */
     func showPopupView() {
-        
+        self.loadPopupView()
+        UIView.animateWithDuration(0.3) { () -> Void in
+            self.dropListView.view.alpha = 1.0
+        }
+    }
+    
+    /**
+     移除弹窗
+     */
+    func removeDropListView() {
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
+             self.dropListView.view.alpha = 0
+            }) { (isSuccess:Bool) -> Void in
+                if self.dropListView != nil {
+                    self.dropListView.view.removeFromSuperview()
+                }
+        }
     }
 }

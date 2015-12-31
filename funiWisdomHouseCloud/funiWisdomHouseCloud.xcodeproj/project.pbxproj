@@ -149,6 +149,8 @@
 		F43EDA8A1C2BD73200AB0F3A /* FWHC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F43ED9FD1C2BD73100AB0F3A /* FWHC-Info.plist */; };
 		F43EDA8C1C2BD73200AB0F3A /* keychain-access-groups.plist in Resources */ = {isa = PBXBuildFile; fileRef = F43EDA001C2BD73100AB0F3A /* keychain-access-groups.plist */; };
 		F43EDA8E1C2BE20400AB0F3A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F43EDA8D1C2BE20400AB0F3A /* libz.tbd */; };
+		F45C709B1C325C4000A65B86 /* FuniDropListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45C709A1C325C4000A65B86 /* FuniDropListView.swift */; };
+		F45C709D1C325C8100A65B86 /* FuniDropListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45C709C1C325C8100A65B86 /* FuniDropListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -397,6 +399,8 @@
 		F43ED9FE1C2BD73100AB0F3A /* FWHC-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FWHC-Swift.h"; sourceTree = "<group>"; };
 		F43EDA001C2BD73100AB0F3A /* keychain-access-groups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "keychain-access-groups.plist"; sourceTree = "<group>"; };
 		F43EDA8D1C2BE20400AB0F3A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F45C709A1C325C4000A65B86 /* FuniDropListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniDropListView.swift; sourceTree = "<group>"; };
+		F45C709C1C325C8100A65B86 /* FuniDropListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniDropListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1080,6 +1084,7 @@
 		F43ED9BF1C2BD73100AB0F3A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F45C70991C325C2100A65B86 /* DropListView */,
 				F42B09701C30E49600C2C47C /* MessageView */,
 				F43ED9C31C2BD73100AB0F3A /* DashedLineView.swift */,
 				F42B097F1C31158000C2C47C /* Common.storyboard */,
@@ -1309,6 +1314,15 @@
 				F43EDA001C2BD73100AB0F3A /* keychain-access-groups.plist */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		F45C70991C325C2100A65B86 /* DropListView */ = {
+			isa = PBXGroup;
+			children = (
+				F45C709A1C325C4000A65B86 /* FuniDropListView.swift */,
+				F45C709C1C325C8100A65B86 /* FuniDropListTableViewCell.swift */,
+			);
+			path = DropListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1554,6 +1568,7 @@
 				F43EDA0F1C2BD73100AB0F3A /* Account.swift in Sources */,
 				F43EDA6A1C2BD73200AB0F3A /* BaseCell.swift in Sources */,
 				F43EDA791C2BD73200AB0F3A /* LandDetailsViewController.swift in Sources */,
+				F45C709B1C325C4000A65B86 /* FuniDropListView.swift in Sources */,
 				F43EDA4B1C2BD73100AB0F3A /* UIView+MJExtension.m in Sources */,
 				F43EDA241C2BD73100AB0F3A /* IQUIView+Hierarchy.m in Sources */,
 				F43EDA5B1C2BD73100AB0F3A /* TransformType.swift in Sources */,
@@ -1615,6 +1630,7 @@
 				F43EDA6B1C2BD73200AB0F3A /* FuniNoDataViewController.swift in Sources */,
 				F43EDA761C2BD73200AB0F3A /* RimLandTypeVO.swift in Sources */,
 				F43EDA271C2BD73100AB0F3A /* IQKeyboardManager.m in Sources */,
+				F45C709D1C325C8100A65B86 /* FuniDropListTableViewCell.swift in Sources */,
 				F43EDA581C2BD73100AB0F3A /* EnumTransform.swift in Sources */,
 				F43EDA481C2BD73100AB0F3A /* MJRefreshLegendHeader.m in Sources */,
 				F43EDA701C2BD73200AB0F3A /* MapSearchConditionTableViewController.swift in Sources */,

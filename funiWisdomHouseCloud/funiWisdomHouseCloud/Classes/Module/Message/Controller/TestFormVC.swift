@@ -35,6 +35,13 @@ class TestFormVC: FuniFormBaseVC {
             case 3:
                 textField.dataSource = HttpService_NHouse.sharedInstance.getCerificateTypeData()
                 break;
+            case 4:
+                var array = HttpService_NHouse.sharedInstance.getCerificateTypeData()
+                array.removeFirst()
+                array.removeFirst()
+                array.removeFirst()
+                textField.dataSource = array
+                break;
             default:break
         }
     }
