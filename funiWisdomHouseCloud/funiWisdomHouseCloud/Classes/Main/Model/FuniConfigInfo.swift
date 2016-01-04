@@ -8,9 +8,21 @@
 
 import UIKit
 
-class FuniConfigInfo: BaseDomain {
+class FuniConfigInfo: Mappable {
 
     var title:String?
     var value:String?
     var subs:Array<FuniConfigInfo>?
+    
+    init(){}
+    
+    required init?(_ map: Map){
+        mapping(map)
+    }
+    
+    func mapping(map: Map) {
+        title <- map["title"]
+        value <- map["value"]
+        subs <- map["subs"]
+    }
 }

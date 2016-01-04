@@ -67,9 +67,7 @@ class ESPAFHTTPSessionManager: AFHTTPSessionManager {
             result!.remark = String_Message_RequestError
         }
         
-        if  result!.code == Code_Success  ||
-            result!.code == Code_Success2 ||
-            result!.code == Code_Success3  {
+        if  result!.code == Code_Success {
             //成功
             successed(responseVO: result!);
             

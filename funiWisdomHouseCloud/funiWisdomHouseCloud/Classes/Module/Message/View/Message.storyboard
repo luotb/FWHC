@@ -448,6 +448,13 @@
                                     <action selector="testBtnClicked:" destination="8Rm-De-CCA" eventType="touchUpInside" id="Srz-28-wRU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jz-Xx-oUc">
+                                <rect key="frame" x="57" y="359" width="89" height="30"/>
+                                <state key="normal" title="Menu"/>
+                                <connections>
+                                    <action selector="menuBtnClicked:" destination="8Rm-De-CCA" eventType="touchUpInside" id="ecK-19-bFT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>

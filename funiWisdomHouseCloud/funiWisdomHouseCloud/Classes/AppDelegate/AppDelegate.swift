@@ -37,7 +37,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.settingBugly()
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        self.window!.rootViewController = Helper.getViewControllerFromStoryboard("Login", storyboardID: "LoginNavigationController") as! NavigationController
+        
+        let testVC = Helper.getViewControllerFromStoryboard("Message", storyboardID: "TestFormVC") as! TestFormVC
+        var nav = NavigationController(rootViewController:testVC)
+        self.window!.rootViewController = nav
+
+//        self.window!.rootViewController = Helper.getViewControllerFromStoryboard("Login", storyboardID: "LoginNavigationController") as! NavigationController
         window!.backgroundColor = UIColor.whiteColor()
         window!.tintColor = UIColor(hue: 1, saturation: 0.67, brightness: 0.93, alpha: 1)
         window!.makeKeyAndVisible()

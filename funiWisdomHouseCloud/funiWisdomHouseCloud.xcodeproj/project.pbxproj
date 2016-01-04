@@ -38,9 +38,6 @@
 		F43EDA111C2BD73100AB0F3A /* APPSessionManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43ED8F61C2BD73100AB0F3A /* APPSessionManage.swift */; };
 		F43EDA121C2BD73100AB0F3A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43ED8F71C2BD73100AB0F3A /* Helper.swift */; };
 		F43EDA1C1C2BD73100AB0F3A /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED90F1C2BD73100AB0F3A /* UIScrollView+EmptyDataSet.m */; };
-		F43EDA1D1C2BD73100AB0F3A /* EmptyViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED9121C2BD73100AB0F3A /* EmptyViewFactory.m */; };
-		F43EDA1E1C2BD73100AB0F3A /* FOREmptyAssistantConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED9141C2BD73100AB0F3A /* FOREmptyAssistantConfiger.m */; };
-		F43EDA1F1C2BD73100AB0F3A /* FORScrollViewEmptyAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED9161C2BD73100AB0F3A /* FORScrollViewEmptyAssistant.m */; };
 		F43EDA201C2BD73100AB0F3A /* FuniHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED9191C2BD73100AB0F3A /* FuniHUD.m */; };
 		F43EDA211C2BD73100AB0F3A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED91B1C2BD73100AB0F3A /* MBProgressHUD.m */; };
 		F43EDA221C2BD73100AB0F3A /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = F43ED91F1C2BD73100AB0F3A /* IQNSArray+Sort.m */; };
@@ -151,6 +148,18 @@
 		F43EDA8E1C2BE20400AB0F3A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F43EDA8D1C2BE20400AB0F3A /* libz.tbd */; };
 		F45C709B1C325C4000A65B86 /* FuniDropListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45C709A1C325C4000A65B86 /* FuniDropListView.swift */; };
 		F45C709D1C325C8100A65B86 /* FuniDropListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45C709C1C325C8100A65B86 /* FuniDropListTableViewCell.swift */; };
+		F496AAC11C3A3E67005C6BBA /* NHMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F496AAC01C3A3E67005C6BBA /* NHMain.storyboard */; };
+		F496AAC31C3A3EAF005C6BBA /* NHMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAC21C3A3EAF005C6BBA /* NHMainViewController.swift */; };
+		F496AACC1C3A514B005C6BBA /* DOPDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F496AAC81C3A514B005C6BBA /* DOPDropDownMenu.m */; };
+		F496AACD1C3A514B005C6BBA /* icon_chose_arrow_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F496AAC91C3A514B005C6BBA /* icon_chose_arrow_nor@2x.png */; };
+		F496AACE1C3A514B005C6BBA /* icon_chose_arrow_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F496AACA1C3A514B005C6BBA /* icon_chose_arrow_sel@2x.png */; };
+		F496AACF1C3A514B005C6BBA /* icon_chose_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F496AACB1C3A514B005C6BBA /* icon_chose_bottom@2x.png */; };
+		F496AAD11C3A5174005C6BBA /* SearchHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAD01C3A5174005C6BBA /* SearchHouseViewController.swift */; };
+		F496AAD31C3A5DF5005C6BBA /* NHSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAD21C3A5DF5005C6BBA /* NHSearchViewController.swift */; };
+		F496AAD51C3A63CE005C6BBA /* NHHttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAD41C3A63CE005C6BBA /* NHHttpService.swift */; };
+		F496AAD71C3A65DA005C6BBA /* FuniConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAD61C3A65DA005C6BBA /* FuniConfig.swift */; };
+		F496AAD91C3A6640005C6BBA /* FuniCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAD81C3A6640005C6BBA /* FuniCondition.swift */; };
+		F496AADB1C3A67C6005C6BBA /* FuniConfigOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AADA1C3A67C6005C6BBA /* FuniConfigOther.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,12 +224,6 @@
 		F43ED8F71C2BD73100AB0F3A /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		F43ED90E1C2BD73100AB0F3A /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		F43ED90F1C2BD73100AB0F3A /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
-		F43ED9111C2BD73100AB0F3A /* EmptyViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewFactory.h; sourceTree = "<group>"; };
-		F43ED9121C2BD73100AB0F3A /* EmptyViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewFactory.m; sourceTree = "<group>"; };
-		F43ED9131C2BD73100AB0F3A /* FOREmptyAssistantConfiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOREmptyAssistantConfiger.h; sourceTree = "<group>"; };
-		F43ED9141C2BD73100AB0F3A /* FOREmptyAssistantConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOREmptyAssistantConfiger.m; sourceTree = "<group>"; };
-		F43ED9151C2BD73100AB0F3A /* FORScrollViewEmptyAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FORScrollViewEmptyAssistant.h; sourceTree = "<group>"; };
-		F43ED9161C2BD73100AB0F3A /* FORScrollViewEmptyAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FORScrollViewEmptyAssistant.m; sourceTree = "<group>"; };
 		F43ED9181C2BD73100AB0F3A /* FuniHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuniHUD.h; sourceTree = "<group>"; };
 		F43ED9191C2BD73100AB0F3A /* FuniHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuniHUD.m; sourceTree = "<group>"; };
 		F43ED91A1C2BD73100AB0F3A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -401,6 +404,19 @@
 		F43EDA8D1C2BE20400AB0F3A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F45C709A1C325C4000A65B86 /* FuniDropListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniDropListView.swift; sourceTree = "<group>"; };
 		F45C709C1C325C8100A65B86 /* FuniDropListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniDropListTableViewCell.swift; sourceTree = "<group>"; };
+		F496AAC01C3A3E67005C6BBA /* NHMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NHMain.storyboard; sourceTree = "<group>"; };
+		F496AAC21C3A3EAF005C6BBA /* NHMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHMainViewController.swift; sourceTree = "<group>"; };
+		F496AAC71C3A514B005C6BBA /* DOPDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPDropDownMenu.h; sourceTree = "<group>"; };
+		F496AAC81C3A514B005C6BBA /* DOPDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPDropDownMenu.m; sourceTree = "<group>"; };
+		F496AAC91C3A514B005C6BBA /* icon_chose_arrow_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_chose_arrow_nor@2x.png"; sourceTree = "<group>"; };
+		F496AACA1C3A514B005C6BBA /* icon_chose_arrow_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_chose_arrow_sel@2x.png"; sourceTree = "<group>"; };
+		F496AACB1C3A514B005C6BBA /* icon_chose_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_chose_bottom@2x.png"; sourceTree = "<group>"; };
+		F496AAD01C3A5174005C6BBA /* SearchHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHouseViewController.swift; sourceTree = "<group>"; };
+		F496AAD21C3A5DF5005C6BBA /* NHSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHSearchViewController.swift; sourceTree = "<group>"; };
+		F496AAD41C3A63CE005C6BBA /* NHHttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHHttpService.swift; sourceTree = "<group>"; };
+		F496AAD61C3A65DA005C6BBA /* FuniConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniConfig.swift; sourceTree = "<group>"; };
+		F496AAD81C3A6640005C6BBA /* FuniCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniCondition.swift; sourceTree = "<group>"; };
+		F496AADA1C3A67C6005C6BBA /* FuniConfigOther.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniConfigOther.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,66 +467,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F42B095F1C30CE0500C2C47C /* NHouse */ = {
-			isa = PBXGroup;
-			children = (
-				F42B09601C30CE0500C2C47C /* Controller */,
-				F42B09611C30CE0500C2C47C /* Model */,
-				F42B09621C30CE0500C2C47C /* View */,
-			);
-			path = NHouse;
-			sourceTree = "<group>";
-		};
-		F42B09601C30CE0500C2C47C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		F42B09611C30CE0500C2C47C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F42B09621C30CE0500C2C47C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		F42B09631C30CE0500C2C47C /* OHouse */ = {
 			isa = PBXGroup;
 			children = (
-				F42B09641C30CE0500C2C47C /* Controller */,
-				F42B09651C30CE0500C2C47C /* Model */,
-				F42B09661C30CE0500C2C47C /* View */,
+				F496AABC1C3A3E49005C6BBA /* OHMain */,
+				F496AAC51C3A47A9005C6BBA /* OHService */,
 			);
 			path = OHouse;
-			sourceTree = "<group>";
-		};
-		F42B09641C30CE0500C2C47C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		F42B09651C30CE0500C2C47C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F42B09661C30CE0500C2C47C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		F42B09671C30CE0500C2C47C /* Tenement */ = {
@@ -644,6 +607,7 @@
 				F43ED8E11C2BD73100AB0F3A /* NavigationController.swift */,
 				F43ED8E21C2BD73100AB0F3A /* TabBarController.swift */,
 				F42B09781C30FF3900C2C47C /* FuniFormBaseVC.swift */,
+				F496AAD01C3A5174005C6BBA /* SearchHouseViewController.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -685,8 +649,8 @@
 		F43ED8F81C2BD73100AB0F3A /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				F496AAC61C3A514A005C6BBA /* DOPDropDownMenu */,
 				F43ED90D1C2BD73100AB0F3A /* DZNEmptyDataSet */,
-				F43ED9101C2BD73100AB0F3A /* EmptyAssistant */,
 				F43ED9171C2BD73100AB0F3A /* HUD */,
 				F43ED91C1C2BD73100AB0F3A /* IQKeyBoardManager */,
 				F43ED9411C2BD73100AB0F3A /* JTCalendar */,
@@ -709,19 +673,6 @@
 				F43ED90F1C2BD73100AB0F3A /* UIScrollView+EmptyDataSet.m */,
 			);
 			path = DZNEmptyDataSet;
-			sourceTree = "<group>";
-		};
-		F43ED9101C2BD73100AB0F3A /* EmptyAssistant */ = {
-			isa = PBXGroup;
-			children = (
-				F43ED9111C2BD73100AB0F3A /* EmptyViewFactory.h */,
-				F43ED9121C2BD73100AB0F3A /* EmptyViewFactory.m */,
-				F43ED9131C2BD73100AB0F3A /* FOREmptyAssistantConfiger.h */,
-				F43ED9141C2BD73100AB0F3A /* FOREmptyAssistantConfiger.m */,
-				F43ED9151C2BD73100AB0F3A /* FORScrollViewEmptyAssistant.h */,
-				F43ED9161C2BD73100AB0F3A /* FORScrollViewEmptyAssistant.m */,
-			);
-			path = EmptyAssistant;
 			sourceTree = "<group>";
 		};
 		F43ED9171C2BD73100AB0F3A /* HUD */ = {
@@ -1035,6 +986,9 @@
 			children = (
 				F43ED9AD1C2BD73100AB0F3A /* BaseDomain.swift */,
 				F42B09831C3129CA00C2C47C /* FuniConfigInfo.swift */,
+				F496AAD61C3A65DA005C6BBA /* FuniConfig.swift */,
+				F496AAD81C3A6640005C6BBA /* FuniCondition.swift */,
+				F496AADA1C3A67C6005C6BBA /* FuniConfigOther.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1095,7 +1049,7 @@
 		F43ED9C41C2BD73100AB0F3A /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				F42B095F1C30CE0500C2C47C /* NHouse */,
+				F496AAAB1C3A27AC005C6BBA /* NHouse */,
 				F42B09631C30CE0500C2C47C /* OHouse */,
 				F42B09671C30CE0500C2C47C /* Tenement */,
 				F43ED9C51C2BD73100AB0F3A /* Base */,
@@ -1325,6 +1279,203 @@
 			path = DropListView;
 			sourceTree = "<group>";
 		};
+		F496AAAB1C3A27AC005C6BBA /* NHouse */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAB81C3A3DCB005C6BBA /* NHMain */,
+				F496AAAC1C3A27AC005C6BBA /* HotSell */,
+				F496AAB01C3A27AC005C6BBA /* NHMap */,
+				F496AAB41C3A27AC005C6BBA /* SearchHouse */,
+				F496AAC41C3A478A005C6BBA /* NHService */,
+			);
+			path = NHouse;
+			sourceTree = "<group>";
+		};
+		F496AAAC1C3A27AC005C6BBA /* HotSell */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAAD1C3A27AC005C6BBA /* Controller */,
+				F496AAAE1C3A27AC005C6BBA /* Model */,
+				F496AAAF1C3A27AC005C6BBA /* View */,
+			);
+			path = HotSell;
+			sourceTree = "<group>";
+		};
+		F496AAAD1C3A27AC005C6BBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F496AAAE1C3A27AC005C6BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F496AAAF1C3A27AC005C6BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F496AAB01C3A27AC005C6BBA /* NHMap */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAB11C3A27AC005C6BBA /* Controller */,
+				F496AAB21C3A27AC005C6BBA /* Model */,
+				F496AAB31C3A27AC005C6BBA /* View */,
+			);
+			path = NHMap;
+			sourceTree = "<group>";
+		};
+		F496AAB11C3A27AC005C6BBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F496AAB21C3A27AC005C6BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F496AAB31C3A27AC005C6BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F496AAB41C3A27AC005C6BBA /* SearchHouse */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAB51C3A27AC005C6BBA /* Controller */,
+				F496AAB61C3A27AC005C6BBA /* Model */,
+				F496AAB71C3A27AC005C6BBA /* View */,
+			);
+			path = SearchHouse;
+			sourceTree = "<group>";
+		};
+		F496AAB51C3A27AC005C6BBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAD21C3A5DF5005C6BBA /* NHSearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F496AAB61C3A27AC005C6BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F496AAB71C3A27AC005C6BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F496AAB81C3A3DCB005C6BBA /* NHMain */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAB91C3A3DCB005C6BBA /* Controller */,
+				F496AABA1C3A3DCB005C6BBA /* Model */,
+				F496AABB1C3A3DCB005C6BBA /* View */,
+			);
+			path = NHMain;
+			sourceTree = "<group>";
+		};
+		F496AAB91C3A3DCB005C6BBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAC21C3A3EAF005C6BBA /* NHMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F496AABA1C3A3DCB005C6BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F496AABB1C3A3DCB005C6BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAC01C3A3E67005C6BBA /* NHMain.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F496AABC1C3A3E49005C6BBA /* OHMain */ = {
+			isa = PBXGroup;
+			children = (
+				F496AABD1C3A3E49005C6BBA /* Controller */,
+				F496AABE1C3A3E49005C6BBA /* Model */,
+				F496AABF1C3A3E49005C6BBA /* View */,
+			);
+			path = OHMain;
+			sourceTree = "<group>";
+		};
+		F496AABD1C3A3E49005C6BBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F496AABE1C3A3E49005C6BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F496AABF1C3A3E49005C6BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F496AAC41C3A478A005C6BBA /* NHService */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAD41C3A63CE005C6BBA /* NHHttpService.swift */,
+			);
+			path = NHService;
+			sourceTree = "<group>";
+		};
+		F496AAC51C3A47A9005C6BBA /* OHService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OHService;
+			sourceTree = "<group>";
+		};
+		F496AAC61C3A514A005C6BBA /* DOPDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F496AAC71C3A514B005C6BBA /* DOPDropDownMenu.h */,
+				F496AAC81C3A514B005C6BBA /* DOPDropDownMenu.m */,
+				F496AAC91C3A514B005C6BBA /* icon_chose_arrow_nor@2x.png */,
+				F496AACA1C3A514B005C6BBA /* icon_chose_arrow_sel@2x.png */,
+				F496AACB1C3A514B005C6BBA /* icon_chose_bottom@2x.png */,
+			);
+			path = DOPDropDownMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1440,12 +1591,16 @@
 				F43EDA871C2BD73200AB0F3A /* Profile.storyboard in Resources */,
 				F43EDA6E1C2BD73200AB0F3A /* Login.storyboard in Resources */,
 				F43EDA771C2BD73200AB0F3A /* Map.storyboard in Resources */,
+				F496AACD1C3A514B005C6BBA /* icon_chose_arrow_nor@2x.png in Resources */,
+				F496AAC11C3A3E67005C6BBA /* NHMain.storyboard in Resources */,
 				F43EDA851C2BD73200AB0F3A /* Message.storyboard in Resources */,
 				F43EDA8A1C2BD73200AB0F3A /* FWHC-Info.plist in Resources */,
 				F43EDA541C2BD73100AB0F3A /* Info.plist in Resources */,
 				F43ED8B51C2BD59800AB0F3A /* Assets.xcassets in Resources */,
 				F43EDA401C2BD73100AB0F3A /* MJRefresh.bundle in Resources */,
+				F496AACF1C3A514B005C6BBA /* icon_chose_bottom@2x.png in Resources */,
 				F43EDA2F1C2BD73100AB0F3A /* IQKeyboardManager.bundle in Resources */,
+				F496AACE1C3A514B005C6BBA /* icon_chose_arrow_sel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1530,6 +1685,7 @@
 				F43EDA2D1C2BD73100AB0F3A /* IQToolbar.m in Sources */,
 				F43EDA681C2BD73200AB0F3A /* DashedLineView.swift in Sources */,
 				F43EDA5D1C2BD73100AB0F3A /* POPProperty.swift in Sources */,
+				F496AAD31C3A5DF5005C6BBA /* NHSearchViewController.swift in Sources */,
 				F42B09791C30FF3900C2C47C /* FuniFormBaseVC.swift in Sources */,
 				F43EDA711C2BD73200AB0F3A /* MapViewController.swift in Sources */,
 				F43EDA391C2BD73100AB0F3A /* JTCalendarWeekView.m in Sources */,
@@ -1550,12 +1706,13 @@
 				F43EDA7B1C2BD73200AB0F3A /* FieldDomain.swift in Sources */,
 				F43EDA461C2BD73100AB0F3A /* MJRefreshHeader.m in Sources */,
 				F43EDA821C2BD73200AB0F3A /* LandDetailsTitleTableViewCell.swift in Sources */,
+				F496AACC1C3A514B005C6BBA /* DOPDropDownMenu.m in Sources */,
 				F43EDA571C2BD73100AB0F3A /* DateTransform.swift in Sources */,
 				F43EDA1C1C2BD73100AB0F3A /* UIScrollView+EmptyDataSet.m in Sources */,
-				F43EDA1E1C2BD73100AB0F3A /* FOREmptyAssistantConfiger.m in Sources */,
 				F43EDA551C2BD73100AB0F3A /* CustomDateFormatTransform.swift in Sources */,
 				F43EDA071C2BD73100AB0F3A /* StringExtension.swift in Sources */,
 				F43EDA801C2BD73200AB0F3A /* LandInfoDomain.swift in Sources */,
+				F496AAD91C3A6640005C6BBA /* FuniCondition.swift in Sources */,
 				F43EDA2B1C2BD73100AB0F3A /* IQBarButtonItem.m in Sources */,
 				F43EDA891C2BD73200AB0F3A /* HttpService.swift in Sources */,
 				F43EDA051C2BD73100AB0F3A /* MKMapView+ZoomLevel.m in Sources */,
@@ -1568,10 +1725,14 @@
 				F43EDA0F1C2BD73100AB0F3A /* Account.swift in Sources */,
 				F43EDA6A1C2BD73200AB0F3A /* BaseCell.swift in Sources */,
 				F43EDA791C2BD73200AB0F3A /* LandDetailsViewController.swift in Sources */,
+				F496AAC31C3A3EAF005C6BBA /* NHMainViewController.swift in Sources */,
+				F496AAD71C3A65DA005C6BBA /* FuniConfig.swift in Sources */,
 				F45C709B1C325C4000A65B86 /* FuniDropListView.swift in Sources */,
 				F43EDA4B1C2BD73100AB0F3A /* UIView+MJExtension.m in Sources */,
 				F43EDA241C2BD73100AB0F3A /* IQUIView+Hierarchy.m in Sources */,
+				F496AADB1C3A67C6005C6BBA /* FuniConfigOther.swift in Sources */,
 				F43EDA5B1C2BD73100AB0F3A /* TransformType.swift in Sources */,
+				F496AAD11C3A5174005C6BBA /* SearchHouseViewController.swift in Sources */,
 				F43EDA4A1C2BD73100AB0F3A /* UIScrollView+MJRefresh.m in Sources */,
 				F43EDA081C2BD73100AB0F3A /* UIAlertViewExtension.swift in Sources */,
 				F43EDA411C2BD73100AB0F3A /* MJRefreshComponent.m in Sources */,
@@ -1581,7 +1742,6 @@
 				F43EDA841C2BD73200AB0F3A /* LandTableViewCell.swift in Sources */,
 				F43EDA4E1C2BD73100AB0F3A /* MLNavigationController.m in Sources */,
 				F43EDA651C2BD73200AB0F3A /* FuniCommon.swift in Sources */,
-				F43EDA1D1C2BD73100AB0F3A /* EmptyViewFactory.m in Sources */,
 				F43EDA7D1C2BD73200AB0F3A /* LandArrayRespon.swift in Sources */,
 				F43EDA101C2BD73100AB0F3A /* AccountTool.swift in Sources */,
 				F43EDA741C2BD73200AB0F3A /* RimInfoReqpDomain.swift in Sources */,
@@ -1635,11 +1795,11 @@
 				F43EDA481C2BD73100AB0F3A /* MJRefreshLegendHeader.m in Sources */,
 				F43EDA701C2BD73200AB0F3A /* MapSearchConditionTableViewController.swift in Sources */,
 				F43EDA4D1C2BD73100AB0F3A /* TTTAttributedLabel.m in Sources */,
+				F496AAD51C3A63CE005C6BBA /* NHHttpService.swift in Sources */,
 				F43EDA4F1C2BD73100AB0F3A /* FromJSON.swift in Sources */,
 				F43EDA421C2BD73100AB0F3A /* MJRefreshConst.m in Sources */,
 				F43EDA501C2BD73100AB0F3A /* Map.swift in Sources */,
 				F43EDA021C2BD73100AB0F3A /* BaseViewController.swift in Sources */,
-				F43EDA1F1C2BD73100AB0F3A /* FORScrollViewEmptyAssistant.m in Sources */,
 				F42B096F1C30D32800C2C47C /* FuniTextField.swift in Sources */,
 				F43EDA351C2BD73100AB0F3A /* JTCalendarDayView.m in Sources */,
 			);

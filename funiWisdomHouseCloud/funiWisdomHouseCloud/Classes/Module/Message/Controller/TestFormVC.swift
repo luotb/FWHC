@@ -14,6 +14,11 @@ class TestFormVC: FuniFormBaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        NHHttpService.sharedInstance.serviceConfig({ (msg:String) -> Void in
+            
+            }) { (error: String) -> Void in
+                
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,4 +50,10 @@ class TestFormVC: FuniFormBaseVC {
             default:break
         }
     }
+    
+    @IBAction func menuBtnClicked(sender: UIButton) {
+        let nhSearchVC = Helper.getViewControllerFromStoryboard("NHMain", storyboardID: "NHSearchViewController") as! NHSearchViewController
+        self.navigationController?.pushViewController(nhSearchVC, animated: true)
+    }
+    
 }

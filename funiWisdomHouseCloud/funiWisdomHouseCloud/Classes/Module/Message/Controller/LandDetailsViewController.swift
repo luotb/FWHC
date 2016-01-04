@@ -50,11 +50,6 @@ class LandDetailsViewController: BaseViewController{
         //集成下拉刷新
         setupDownRefresh()
         
-        // 初始化的引导空白页
-        EmptyViewFactory.emptyMainView(self.myTableView) { () -> Void in
-            self.queryData()
-        }
-        
         self.queryData()
     }
     
