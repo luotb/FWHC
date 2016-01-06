@@ -8,24 +8,17 @@
 
 import UIKit
 
-class BaseRespDomain: Mappable {
+class BaseRespDomain: Reflect {
     
     var code: Int?
     var remark: String?
     var total: Int?
     var data: AnyObject?
     
-    init(){}
-    
-    required init?(_ map: Map){
-        mapping(map)
-    }
-    
-    func mapping(map: Map) {
-        total <- map["total"]
-        code <- map["code"]
-        remark <- map["remark"]
-        data <- map["data"]
+    required init() {
+        self.code = 0
+        self.total = 0
+        self.remark = ""
     }
 
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FuniConfig: Mappable {
+class FuniConfig: Reflect {
     
     // new house begin
     var regionList:Array<FuniConfigInfo>?         //区域
@@ -28,24 +28,5 @@ class FuniConfig: Mappable {
     
     
     var config:FuniConfigOther?
-    
-    init(){}
-    
-    required init?(_ map: Map){
-        mapping(map)
-    }
-    
-    func mapping(map: Map) {
-        regionList <- map["regionList"]
-        propertyPriceList <- map["propertyPriceList"]
-        tagList <- map["tagList"]
-        nearbyList <- map["nearbyList"]
-        nearbyHouseList <- map["nearbyHouseList"]
-        houseRegionList <- map["houseRegionList"]
-        houseTaoXingList <- map["houseTaoXingList"]
-        moreList <- map["moreList"]
-        priceList <- map["priceList"]
-        config <- map["config"]
-    }
 
 }

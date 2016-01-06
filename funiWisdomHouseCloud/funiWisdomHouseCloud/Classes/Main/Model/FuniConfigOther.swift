@@ -8,6 +8,6 @@
 
 import UIKit
 
-class FuniConfigOther: NSObject {
+class FuniConfigOther: Reflect {
 
 }

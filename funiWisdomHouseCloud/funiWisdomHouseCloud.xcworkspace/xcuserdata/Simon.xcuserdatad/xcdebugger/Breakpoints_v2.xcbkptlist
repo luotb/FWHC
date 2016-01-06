@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "funiWisdomHouseCloud/Classes/Main/Model/FuniConfigInfo.swift"
-            timestampString = "473591760.323436"
+            filePath = "funiWisdomHouseCloud/Classes/Module/NHouse/NHService/NHHttpService.swift"
+            timestampString = "473592003.187571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "mapping(_:)"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "serviceConfig(_:faild:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +41,77 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "funiWisdomHouseCloud/Classes/Module/NHouse/NHService/NHHttpService.swift"
-            timestampString = "473592003.187571"
+            filePath = "funiWisdomHouseCloud/Classes/Module/Service/ESPAFHTTPSessionManager.swift"
+            timestampString = "473744202.563359"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "serviceConfig(_:faild:)"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "packageBaseResp(_:successed:failured:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "funiWisdomHouseCloud/Classes/Main/Libs/Reflect/Dict2Model/Reflect+Parse.swift"
+            timestampString = "473744367.211626"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "parse(dict:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "funiWisdomHouseCloud/Classes/Main/Libs/Reflect/Dict2Model/Reflect+Parse.swift"
+            timestampString = "473744414.867717"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "parse(dict:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "funiWisdomHouseCloud/Classes/Main/Libs/Reflect/Dict2Model/Reflect+Parse.swift"
+            timestampString = "473744493.867844"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "parse(dict:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "funiWisdomHouseCloud/Classes/Main/Libs/Reflect/Dict2Model/Reflect+Parse.swift"
+            timestampString = "473744519.427509"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "parse(dict:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -44,7 +44,7 @@ class NHHttpService: NSObject {
         sessionManager.ESP_GET(self.buildUrl(NHServerConfigURL), parameters: nil, taskSuccessed: { (responseVO: BaseRespDomain) -> Void in
             
             if responseVO.data != nil {
-                self.nhConfig = Mapper<FuniConfig>().map(responseVO.data)
+                self.nhConfig = FuniConfig.parse(dict: responseVO.data as! NSDictionary)
             }
             
             success(msg: String_LoginSuccess)

@@ -55,9 +55,11 @@ class ESPAFHTTPSessionManager: AFHTTPSessionManager {
         if id != nil {
             if id is NSArray {
                 let aa = id as! NSArray
-                result  = Mapper<BaseRespDomain>().map(aa[0])!;
+//                result  = Mapper<BaseRespDomain>().map(aa[0])!;
+                result = BaseRespDomain.parse(dict: aa[0] as! NSDictionary)
             } else if id is NSDictionary {
-                result = Mapper<BaseRespDomain>().map(id as! NSDictionary)!;
+//                result = Mapper<BaseRespDomain>().map(id as! NSDictionary)!;
+                result = BaseRespDomain.parse(dict: id as! NSDictionary)
             } else {
                 result = BaseRespDomain()
                 result!.remark = String_Message_RequestError

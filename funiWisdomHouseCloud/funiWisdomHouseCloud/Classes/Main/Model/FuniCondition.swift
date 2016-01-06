@@ -8,19 +8,8 @@
 
 import UIKit
 
-class FuniCondition: Mappable {
+class FuniCondition: Reflect {
     
     var title:String?          //title
     var conditionArray:Array<FuniConfigInfo>? //搜索条件array
-
-    init(){}
-    
-    required init?(_ map: Map){
-        mapping(map)
-    }
-    
-    func mapping(map: Map) {
-        title <- map["title"]
-        conditionArray <- map["conditionArray"]
-    }
 }

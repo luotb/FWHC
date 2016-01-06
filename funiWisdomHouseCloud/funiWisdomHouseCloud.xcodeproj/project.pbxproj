@@ -160,6 +160,14 @@
 		F496AAD71C3A65DA005C6BBA /* FuniConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAD61C3A65DA005C6BBA /* FuniConfig.swift */; };
 		F496AAD91C3A6640005C6BBA /* FuniCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AAD81C3A6640005C6BBA /* FuniCondition.swift */; };
 		F496AADB1C3A67C6005C6BBA /* FuniConfigOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = F496AADA1C3A67C6005C6BBA /* FuniConfigOther.swift */; };
+		F4DD7EC31C3CBFD300D72B0D /* Reflect+ArcFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EB81C3CBFD300D72B0D /* Reflect+ArcFile.swift */; };
+		F4DD7EC41C3CBFD300D72B0D /* Reflect+Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EBA1C3CBFD300D72B0D /* Reflect+Parse.swift */; };
+		F4DD7EC51C3CBFD300D72B0D /* Reflect+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EBC1C3CBFD300D72B0D /* Reflect+Convert.swift */; };
+		F4DD7EC61C3CBFD300D72B0D /* Reflect+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EBE1C3CBFD300D72B0D /* Reflect+Class.swift */; };
+		F4DD7EC71C3CBFD300D72B0D /* Reflect+Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EBF1C3CBFD300D72B0D /* Reflect+Other.swift */; };
+		F4DD7EC81C3CBFD300D72B0D /* Reflect+Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EC01C3CBFD300D72B0D /* Reflect+Property.swift */; };
+		F4DD7EC91C3CBFD300D72B0D /* Reflect+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EC11C3CBFD300D72B0D /* Reflect+Type.swift */; };
+		F4DD7ECA1C3CBFD300D72B0D /* Reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD7EC21C3CBFD300D72B0D /* Reflect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -417,6 +425,14 @@
 		F496AAD61C3A65DA005C6BBA /* FuniConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniConfig.swift; sourceTree = "<group>"; };
 		F496AAD81C3A6640005C6BBA /* FuniCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniCondition.swift; sourceTree = "<group>"; };
 		F496AADA1C3A67C6005C6BBA /* FuniConfigOther.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuniConfigOther.swift; sourceTree = "<group>"; };
+		F4DD7EB81C3CBFD300D72B0D /* Reflect+ArcFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reflect+ArcFile.swift"; sourceTree = "<group>"; };
+		F4DD7EBA1C3CBFD300D72B0D /* Reflect+Parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reflect+Parse.swift"; sourceTree = "<group>"; };
+		F4DD7EBC1C3CBFD300D72B0D /* Reflect+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reflect+Convert.swift"; sourceTree = "<group>"; };
+		F4DD7EBE1C3CBFD300D72B0D /* Reflect+Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reflect+Class.swift"; sourceTree = "<group>"; };
+		F4DD7EBF1C3CBFD300D72B0D /* Reflect+Other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reflect+Other.swift"; sourceTree = "<group>"; };
+		F4DD7EC01C3CBFD300D72B0D /* Reflect+Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reflect+Property.swift"; sourceTree = "<group>"; };
+		F4DD7EC11C3CBFD300D72B0D /* Reflect+Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reflect+Type.swift"; sourceTree = "<group>"; };
+		F4DD7EC21C3CBFD300D72B0D /* Reflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -649,6 +665,7 @@
 		F43ED8F81C2BD73100AB0F3A /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				F4DD7EB61C3CBFD300D72B0D /* Reflect */,
 				F496AAC61C3A514A005C6BBA /* DOPDropDownMenu */,
 				F43ED90D1C2BD73100AB0F3A /* DZNEmptyDataSet */,
 				F43ED9171C2BD73100AB0F3A /* HUD */,
@@ -1476,6 +1493,53 @@
 			path = DOPDropDownMenu;
 			sourceTree = "<group>";
 		};
+		F4DD7EB61C3CBFD300D72B0D /* Reflect */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD7EB71C3CBFD300D72B0D /* Coding */,
+				F4DD7EB91C3CBFD300D72B0D /* Dict2Model */,
+				F4DD7EBB1C3CBFD300D72B0D /* Model2Dict */,
+				F4DD7EBD1C3CBFD300D72B0D /* Reflect */,
+				F4DD7EC21C3CBFD300D72B0D /* Reflect.swift */,
+			);
+			path = Reflect;
+			sourceTree = "<group>";
+		};
+		F4DD7EB71C3CBFD300D72B0D /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD7EB81C3CBFD300D72B0D /* Reflect+ArcFile.swift */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		F4DD7EB91C3CBFD300D72B0D /* Dict2Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD7EBA1C3CBFD300D72B0D /* Reflect+Parse.swift */,
+			);
+			path = Dict2Model;
+			sourceTree = "<group>";
+		};
+		F4DD7EBB1C3CBFD300D72B0D /* Model2Dict */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD7EBC1C3CBFD300D72B0D /* Reflect+Convert.swift */,
+			);
+			path = Model2Dict;
+			sourceTree = "<group>";
+		};
+		F4DD7EBD1C3CBFD300D72B0D /* Reflect */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD7EBE1C3CBFD300D72B0D /* Reflect+Class.swift */,
+				F4DD7EBF1C3CBFD300D72B0D /* Reflect+Other.swift */,
+				F4DD7EC01C3CBFD300D72B0D /* Reflect+Property.swift */,
+				F4DD7EC11C3CBFD300D72B0D /* Reflect+Type.swift */,
+			);
+			path = Reflect;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1680,6 +1744,7 @@
 				F43EDA641C2BD73200AB0F3A /* AFAppDotNetAPIClient.m in Sources */,
 				F43EDA0C1C2BD73100AB0F3A /* UIColorExt.swift in Sources */,
 				F43EDA721C2BD73200AB0F3A /* RimLandListViewController.swift in Sources */,
+				F4DD7EC91C3CBFD300D72B0D /* Reflect+Type.swift in Sources */,
 				F43EDA661C2BD73200AB0F3A /* FuniDeviceUtil.m in Sources */,
 				F43EDA231C2BD73100AB0F3A /* IQUITextFieldView+Additions.m in Sources */,
 				F43EDA2D1C2BD73100AB0F3A /* IQToolbar.m in Sources */,
@@ -1711,6 +1776,7 @@
 				F43EDA1C1C2BD73100AB0F3A /* UIScrollView+EmptyDataSet.m in Sources */,
 				F43EDA551C2BD73100AB0F3A /* CustomDateFormatTransform.swift in Sources */,
 				F43EDA071C2BD73100AB0F3A /* StringExtension.swift in Sources */,
+				F4DD7EC31C3CBFD300D72B0D /* Reflect+ArcFile.swift in Sources */,
 				F43EDA801C2BD73200AB0F3A /* LandInfoDomain.swift in Sources */,
 				F496AAD91C3A6640005C6BBA /* FuniCondition.swift in Sources */,
 				F43EDA2B1C2BD73100AB0F3A /* IQBarButtonItem.m in Sources */,
@@ -1718,6 +1784,7 @@
 				F43EDA051C2BD73100AB0F3A /* MKMapView+ZoomLevel.m in Sources */,
 				F43EDA2A1C2BD73100AB0F3A /* IQTextView.m in Sources */,
 				F43EDA781C2BD73200AB0F3A /* RimLandListTableViewCell.swift in Sources */,
+				F4DD7EC61C3CBFD300D72B0D /* Reflect+Class.swift in Sources */,
 				F43EDA751C2BD73200AB0F3A /* RimLandInfoDomain.swift in Sources */,
 				F43EDA5A1C2BD73100AB0F3A /* TransformOf.swift in Sources */,
 				F43EDA121C2BD73100AB0F3A /* Helper.swift in Sources */,
@@ -1729,6 +1796,7 @@
 				F496AAD71C3A65DA005C6BBA /* FuniConfig.swift in Sources */,
 				F45C709B1C325C4000A65B86 /* FuniDropListView.swift in Sources */,
 				F43EDA4B1C2BD73100AB0F3A /* UIView+MJExtension.m in Sources */,
+				F4DD7EC71C3CBFD300D72B0D /* Reflect+Other.swift in Sources */,
 				F43EDA241C2BD73100AB0F3A /* IQUIView+Hierarchy.m in Sources */,
 				F496AADB1C3A67C6005C6BBA /* FuniConfigOther.swift in Sources */,
 				F43EDA5B1C2BD73100AB0F3A /* TransformType.swift in Sources */,
@@ -1756,6 +1824,7 @@
 				F43EDA3A1C2BD73100AB0F3A /* JTHorizontalCalendarView.m in Sources */,
 				F43EDA491C2BD73100AB0F3A /* UIScrollView+MJExtension.m in Sources */,
 				F43EDA2E1C2BD73100AB0F3A /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				F4DD7EC41C3CBFD300D72B0D /* Reflect+Parse.swift in Sources */,
 				F43EDA331C2BD73100AB0F3A /* JTCalendarDelegateManager.m in Sources */,
 				F42B09841C3129CA00C2C47C /* FuniConfigInfo.swift in Sources */,
 				F43EDA381C2BD73100AB0F3A /* JTCalendarWeekDayView.m in Sources */,
@@ -1784,6 +1853,7 @@
 				F43EDA5E1C2BD73100AB0F3A /* POPSwiftWrapper.m in Sources */,
 				F43EDA731C2BD73200AB0F3A /* FuniPointAnnotation.swift in Sources */,
 				F43EDA471C2BD73100AB0F3A /* MJRefreshLegendFooter.m in Sources */,
+				F4DD7EC51C3CBFD300D72B0D /* Reflect+Convert.swift in Sources */,
 				F43EDA6D1C2BD73200AB0F3A /* FLUser.swift in Sources */,
 				F42B09771C30F18100C2C47C /* TestFormVC.swift in Sources */,
 				F43EDA831C2BD73200AB0F3A /* LandInfoTableViewCell.swift in Sources */,
@@ -1791,11 +1861,13 @@
 				F43EDA761C2BD73200AB0F3A /* RimLandTypeVO.swift in Sources */,
 				F43EDA271C2BD73100AB0F3A /* IQKeyboardManager.m in Sources */,
 				F45C709D1C325C8100A65B86 /* FuniDropListTableViewCell.swift in Sources */,
+				F4DD7ECA1C3CBFD300D72B0D /* Reflect.swift in Sources */,
 				F43EDA581C2BD73100AB0F3A /* EnumTransform.swift in Sources */,
 				F43EDA481C2BD73100AB0F3A /* MJRefreshLegendHeader.m in Sources */,
 				F43EDA701C2BD73200AB0F3A /* MapSearchConditionTableViewController.swift in Sources */,
 				F43EDA4D1C2BD73100AB0F3A /* TTTAttributedLabel.m in Sources */,
 				F496AAD51C3A63CE005C6BBA /* NHHttpService.swift in Sources */,
+				F4DD7EC81C3CBFD300D72B0D /* Reflect+Property.swift in Sources */,
 				F43EDA4F1C2BD73100AB0F3A /* FromJSON.swift in Sources */,
 				F43EDA421C2BD73100AB0F3A /* MJRefreshConst.m in Sources */,
 				F43EDA501C2BD73100AB0F3A /* Map.swift in Sources */,

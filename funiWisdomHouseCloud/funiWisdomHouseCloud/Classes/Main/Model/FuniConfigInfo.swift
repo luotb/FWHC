@@ -8,21 +8,9 @@
 
 import UIKit
 
-class FuniConfigInfo: Mappable {
+class FuniConfigInfo: Reflect {
 
     var title:String?
     var value:String?
     var subs:Array<FuniConfigInfo>?
-    
-    init(){}
-    
-    required init?(_ map: Map){
-        mapping(map)
-    }
-    
-    func mapping(map: Map) {
-        title <- map["title"]
-        value <- map["value"]
-        subs <- map["subs"]
-    }
 }
